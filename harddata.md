@@ -10,14 +10,33 @@
 
 ##Effects on the counter
 
-- +2 loss per post for being wet.
-- +1 loss per post for paralytic poisons.
-- **Bloodloss:**
-	- +2 initial
-	- +5 if untreated for five posts
-	- +9 if untreated for ten.
+| Action           | Effect             |
+|------------------|--------------------|
+| Wet              | -2  **IP**         |
+| Paralytic poison | -1  **IP** [^1]    |
+| Bloodloss        | (See table)        |
+| Sleeping warmly  | +2 **I**, +5 **T** |
+
+
+####Bloodloss:
+| Action           | Effect             |
+|------------------|--------------------|
+| Initial          | -2 **IP**          |
+| +5 turns         | -5 **IP**          |
+| +10 turns         | -9 **IP**          |
+
+*Notation:
+
+ - **I**: Applied immediately.
+ - **T**: Applied over time.
+ - **P**: Active until treated.
 
 
 ##Map
 
 ![Map](Images/MiscContent/Map.png)
+
+
+
+
+[^1] : Goes away by sleeping.
